@@ -129,8 +129,6 @@ train=open[:train_size]
 
 test=open[train_size:]
 
-print(min)
-print(max)
 
 def create_predictions(model, test, input_shape, output_shape):
     global min
